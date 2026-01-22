@@ -1,0 +1,13 @@
+/* Custom Signature Font */
+@font-face {
+    font-family: 'Elometha';
+    src: url('assets/fonts/Elometha.otf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.signature-text {
+    font-family: 'Elometha', cursive;
+    font-size: 48px;
+    color: var(--dark);
+}
